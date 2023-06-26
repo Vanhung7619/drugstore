@@ -1,0 +1,62 @@
+/* Tùy chỉnh navbar */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+/* Tùy chỉnh logo */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Tùy chỉnh nút dropdown */
+.nav-item.dropdown .dropdown-toggle {
+    color: #000;
+}
+
+/* Tùy chỉnh menu dropdown */
+.dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item {
+    color: #000;
+}
+
+/* Tùy chỉnh nút đăng nhập và đăng ký */
+.navbar-nav li.nav-item a.nav-link {
+    color: #000;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Tùy chỉnh tên người dùng hiển thị trong dropdown */
+.navbar-nav li.nav-item.dropdown .nav-link {
+    color: #000;
+}
+
+/* Tùy chỉnh nút đăng xuất */
+.navbar-nav li.nav-item.dropdown .dropdown-item {
+    color: #000;
+}
+
+/* Tùy chỉnh phần content chính */
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Tùy chỉnh phần footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Tùy chỉnh font chữ */
+body {
+    font-family: 'Nunito', sans-serif;
+}

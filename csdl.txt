@@ -1,0 +1,21 @@
+Bảng thuốc (medicine):
+id: khóa chính
+tên thuốc (name)
+số lượng còn lại (quantity)
+ngày sản xuất (manufacture_date)
+ngày hết hạn (expiration_date)
+Bảng nhập hàng (import):
+id: khóa chính
+id thuốc (medicine_id): khóa ngoại đến bảng thuốc
+số lượng (quantity)
+ngày nhập hàng (import_date)
+Bảng hoá đơn (invoice):
+id: khóa chính
+ngày lập (invoice_date)
+tổng tiền (total_amount)
+Bảng chi tiết hoá đơn (invoice_detail):
+id: khóa chính
+id thuốc (medicine_id): khóa ngoại đến bảng thuốc
+id hoá đơn (invoice_id): khóa ngoại đến bảng hoá đơn
+số lượng (quantity)
+đơn giá (unit_price)
